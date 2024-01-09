@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-seris;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-color: rgb(41, 41, 210);
+    --second-bg-color: rgb(18, 18, 171);
+    --text-color: rgb(246, 246, 246);
+    --main-color: red;
+}
+
+
+body{
+    background-color: var(--second-bg-color);
+}
+
+.logo{
+    height: 75px;
+    width: 100%;   
+    padding: 20px; 
+    
+}
+
+/* TENGO QUE VER EL TEMA DE LOS COLORES */
+/* QUIERO COLOCAR LA IMAGEN Y LA NAV BAR TODO EN UNA MISMA LINEA */
+/* NO SE QUE TIPO DE DIPLAY PONERLE */
+
+header{
+    background-color: var(--bg-color);
+
+    display: flex;                  /* CON ESTO PUDE HACER QUE SE CENTRE EL NAV Y LOGO, PERO EL LOGO LO QUIERO A LA IZQUIERDA */
+    align-items: center;
+    justify-content: center;
+    
+    height: 150px;
+    width: 100%;
+}
+
+.navbar {
+    padding: 40px;
+    /*margin: 30px 17%; */ /* "CENTRADO" A MANO. NO SABRIA COMO HACERLO DE FORMA "AUTOMATICA". */
+
+    transition: .3s;
+}
+
+.navbar a{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', Courier, monospace;
+    color: var(--text-color);
+
+    text-decoration: none;
+    
+
+    padding: 25px;
+
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+
+/*-----------------------------------------------*/
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+
+    color: var(--text-color);
+    margin-top: 80px;
+
+}
+
+.subtitulo {
+    display: flex;
+    
+    justify-content: center;
+
+    color: var(--text-color);
+    font-size: medium;
+    
+    margin-top: 40px;
+}
+
+.texto {
+    display: flex;
+    margin: 20px 450px;
+    color: var(--text-color);
+    text-align: justify;
+}
+
+.Info {
+    display: block;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+
+.contain_img {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+.prado, .pocitos {
+    margin: 10px;
+}
+
+.contain_img2 {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+    width: 300px;
+    height: 300px;
+}
+
+.contain_img_ear {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 350px;
+    
+    width: 300px;
+    height: 300px;
+}
+
+.contain_img_eyes{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+    
+    width: 300px;
+    height: 300px;
+}
+
+.eyes {
+    margin-left: 10px;
+}
+
+/*---------------------------------------------*/
+
+.footer{
+    color: var(--text-color);
+
+    border-top-color: rgb(3, 3, 10);
+    border-top-style: hidden;
+
+    background-color: rgb(2, 3, 85);
+}
+
+.pay{
+    padding: 30px;
+    margin-left: 500px;
+    font-size: 16px;
+}
+
+
+.derechos{
+    display: flex;
+    justify-content: center;
+}
